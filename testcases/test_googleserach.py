@@ -12,7 +12,7 @@ class Test_google:
         google_object = Google_class(self.driver)
         form_object = form_class(self.driver)
 
-        google_object.search_text("jana nayagan")
+        google_object.search_text("DC")
 
         form_object.enter_first_name("subash")
 
