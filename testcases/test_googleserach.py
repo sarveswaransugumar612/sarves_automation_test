@@ -14,6 +14,6 @@ class Test_google:
 
         google_object.search_text("jana nayagan")
 
-        form_object.enter_first_name("subash","baskar")
+        form_object.enter_first_name("subash")
 
 

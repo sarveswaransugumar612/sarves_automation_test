@@ -9,8 +9,10 @@ class form_class:
     def __init__(self,driver):
         self.driver = driver
 
-    def enter_first_name(self,fname,lname):
+    def enter_first_name(self,fname):
         self.driver.find_element(By.ID,first_name_element_id).send_keys(fname)
+
+    def enter_last_name(self,lname):
         self.driver.find_element(By.ID,first_name_element_id).send_keys(lname)
 
 
